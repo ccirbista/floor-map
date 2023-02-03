@@ -1,0 +1,22 @@
+#container{
+    width: 500px;
+    height: 500px;
+    border: solid black 2px;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-around;
+    
+    border: solid whitesmoke 1px;
+
+}
+
+
+#new-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
